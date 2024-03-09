@@ -1,0 +1,31 @@
+.input {
+    min-width: 120px;
+    width: 100%;
+    border-radius: 4px;
+    margin: 10px auto;
+    padding: 11px 15px;
+    background-color: rgb(245, 245, 245);
+    outline: none;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    font-size: 15px;
+    color: rgb(30, 30, 30);
+    transition: 0.3s;
+}
+
+.input::placeholder {
+    color: rgb(70, 70, 70);
+}
+
+.input:hover {
+    background-color: #f1eff1;
+}
+
+.input:focus {
+    background-color: #fff;
+    border: 1px solid rgb(87, 126, 219);
+    box-shadow: 0 0 4px 2px rgb(50, 50, 50, 0.1);
+}
+
+.input:valid {
+    border: 1px solid rgb(220, 220, 220);
+}

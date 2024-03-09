@@ -1,0 +1,1 @@
+export type FromType = 'IATA' | 'ATLAS' | 'GPS' | 'PORT' | 'STATION';
